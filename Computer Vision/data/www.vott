@@ -1,0 +1,37 @@
+{
+    "name": "www",
+    "securityToken": "www Token",
+    "sourceConnection": {
+        "name": "in",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGEwM2RmZmQ1M2Y2NzI1ZTUzYWQ0MjRkOWNkNTU2N2QwMWQxYjQ1MzhlMmU2OWQ1Zjg4M2E3ZjA0YWQ3NDFjY2M5ZTA5YzM3MGFkY2NkZmY3ZjVmYzE3MjZmZWNiYWExMjUwMTM0ZjQzNmEyMDkxNGQ5NTI5YjYwNTZiYmM4OTUiLCJpdiI6ImNhY2NhYzVkNmFkMDkxZjJiMzVjNGUzYWJlOTJlODllMmNlOGE5Nzc0OTM4YzZmMyJ9"
+        },
+        "id": "wzNYK7gZv"
+    },
+    "targetConnection": {
+        "name": "out",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDk5NWZmNzg4ZDljYzY3MDUwNjc4ODc3MzUxNjYzZWQzZTQ4NDc0MTE3MDBiMjJmMzRiNDM2NTZkZDI1YjFmNmE5ZDY1NjEwZmViNzM1NWU0OTVjYWM1MGVmOTM4ZGI1MzRhZjA4ZjAyN2M5N2E1MDM1NmM5Zjg5ZTJiMjVmNTQiLCJpdiI6ImNhN2Y5MzlmM2U0MjU4NmJiYThlYjgyMDkwNmI0Y2VmYjEyMGUxZTVhYzFlMjZiZiJ9"
+        },
+        "id": "o0P-hInNI"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [],
+    "id": "nwUmsplAE",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjBkZTBlZGFjNzgyZmFmNzc0MTI3MWY5ZDI1NGEyMDkzNjcyODQyYTNhMWE1N2JhODJjYTJiYTVjODZmODMxNDdkNWY0ZjY0Mjg3YTA5ZmE5NWViOGM4MGVhYTJmYjYxIiwiaXYiOiJhODk3ZGRiZWFhNWJhOGE3Njk4OTUwZTFiY2EzMDU5OTYyZDBhOWFhMzY1Mjk0MTgifQ=="
+        }
+    },
+    "version": "2.1.0"
+}
